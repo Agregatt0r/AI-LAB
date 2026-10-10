@@ -1,4 +1,4 @@
-# Statistics (Day 6)
+# Statistics
 
 **Statistics** is the science of collecting, exploring, summarizing, and drawing inferences from data.
 

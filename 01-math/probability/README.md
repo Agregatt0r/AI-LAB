@@ -1,4 +1,4 @@
-# Probability (Day 5)
+# Probability
 
 **Probability** is the mathematical foundation for reasoning under uncertainty. In Machine Learning and AI, probability theory allows models to quantify uncertainty, make predictions (e.g. classification probabilities), update beliefs via Bayesian inference, and optimize objective functions.
 
