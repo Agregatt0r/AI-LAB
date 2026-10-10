@@ -1,0 +1,5 @@
+Task 2: Explain in your own words what is a vector
+
+vector is a set or array or collection of numbers like [1, 2, 3]
+
+better answer: vector is an ordered collection of numbers representing values/features

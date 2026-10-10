@@ -1,0 +1,5 @@
+Task 2: Explain in your own words: if X has shape (100, 5) in ML, what do 100 and 5 mean?
+
+Answer: X is a matrix with shape (100, 5). 100 is the number of rows = samples
+(examples). 5 is the number of columns = features each sample has.
+So we have 100 examples and each of them has 5 features.

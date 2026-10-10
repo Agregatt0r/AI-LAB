@@ -1,0 +1,20 @@
+Task 2: Explain in your own words what is dot product
+
+dot production is a sum of elements multiplicated on each other by their index for example
+
+A = [a1, a2, a3]
+B = [b1, b2, b3]
+
+A * B = a1 * b1 + a2 * b2 + a3 * b3
+
+better answer: dot production is multiplication of corresponding elements and the sum of their results
+
+
+A = [2, 3, 4]
+B = [5, 1, 2]
+
+A · B
+= 2×5 + 3×1 + 4×2
+= 21
+
+Better A · B or dot(A, B) than A * B
