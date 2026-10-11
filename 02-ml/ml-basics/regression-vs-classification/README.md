@@ -1,10 +1,10 @@
-# Regression vs Classification (Регресія чи Класифікація)
+# Regression vs Classification
 
 Within Supervised Learning, tasks are fundamentally divided into two major problem types depending on the mathematical nature of the target variable $y$: **Regression** and **Classification**.
 
 ---
 
-## 1. Regression (Регресія)
+## 1. Regression
 
 The target $y$ is a **continuous real number** ($y \in \mathbb{R}$).
 
@@ -24,7 +24,7 @@ $$\hat{y} = f(\mathbf{x}) \in (-\infty, +\infty)$$
 
 ---
 
-## 2. Classification (Класифікація)
+## 2. Classification
 
 The target $y$ is a **discrete category or class label** ($y \in \{0, 1, \dots, K-1\}$).
 

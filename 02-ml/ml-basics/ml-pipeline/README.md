@@ -20,7 +20,7 @@ flowchart TD
 
 ## 2. Core Stages Breakdown
 
-### 1. Data Preparation & Cleaning (Підготовка даних)
+### 1. Data Preparation & Cleaning
 - Remove duplicate rows.
 - Handle missing values (imputation with mean/median or dropping).
 - Cast types (e.g. converting date strings to timestamps or categorical labels to numbers).
@@ -38,10 +38,10 @@ flowchart TD
   scaler.fit(entire_dataset)  # Test set information leaks into training!
   ```
 
-### 3. Model Training (Навчання)
+### 3. Model Training
 - The algorithm optimizes its internal weights using only `X_train_scaled` and `y_train`.
 
-### 4. Model Evaluation (Оцінювання)
+### 4. Model Evaluation
 - Compute test metrics ($R^2$, RMSE, Accuracy, F1-Score) on `X_test_scaled` and `y_test`.
 - Diagnose model behavior:
   - High train error + High test error $\implies$ **Underfitting** (model is too simple).

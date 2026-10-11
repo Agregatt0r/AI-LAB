@@ -1,4 +1,4 @@
-# What is Machine Learning? (Що таке Machine Learning)
+# What is Machine Learning?
 
 **Machine Learning (ML)** is a subfield of Artificial Intelligence where computer systems learn to perform tasks by recognizing patterns in data, rather than following rigid, manually hardcoded rules.
 

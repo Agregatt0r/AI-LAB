@@ -4,7 +4,7 @@ Machine Learning algorithms are categorized into distinct paradigms based on wha
 
 ---
 
-## 1. Supervised Learning (Навчання з учителем)
+## 1. Supervised Learning
 
 In **Supervised Learning**, the training dataset includes both input features ($\mathbf{X}$) and their corresponding true answers, known as **labels** or targets ($\mathbf{y}$).
 
@@ -18,7 +18,7 @@ $$\mathcal{D}_{\text{train}} = \{(\mathbf{x}_1, y_1), (\mathbf{x}_2, y_2), \dots
 
 ---
 
-## 2. Unsupervised Learning (Навчання без учителя)
+## 2. Unsupervised Learning
 
 In **Unsupervised Learning**, the training dataset contains only input features ($\mathbf{X}$). There are **no labels** or answers provided ($\mathbf{y}$ does not exist).
 
@@ -32,7 +32,7 @@ $$\mathcal{D}_{\text{train}} = \{\mathbf{x}_1, \mathbf{x}_2, \dots, \mathbf{x}_n
 
 ---
 
-## 3. Reinforcement Learning (Навчання з підкріпленням)
+## 3. Reinforcement Learning
 
 In **Reinforcement Learning (RL)**, an autonomous **agent** learns by interacting with a dynamic **environment**.
 - The agent takes **actions** ($a$), transitions to a new **state** ($s$), and receives scalar **rewards** or penalties ($r$).
