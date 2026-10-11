@@ -1,4 +1,4 @@
-# Machine Learning Foundations (Основи Machine Learning)
+# Machine Learning Foundations
 
 **Machine Learning Foundations** covers the core principles, paradigms, workflows, and terminology of Artificial Intelligence and Machine Learning. 
 
