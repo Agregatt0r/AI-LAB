@@ -12,12 +12,12 @@ The math track is structured into 6 progressive modules:
 
 | # | Module | Core Focus | Why it matters in ML / Deep Learning |
 |---|---|---|---|
-| 1 | **[Vectors](file:///Users/wakasa/Projects/AI-LAB/01-math/vectors/README.md)** | 1D Tensors, operations & metrics | Feature representation, word/image embeddings, similarity search (dot product, cosine similarity, Euclidean distance). |
-| 2 | **[Matrices](file:///Users/wakasa/Projects/AI-LAB/01-math/matrix/README.md)** | 2D Tensors & Linear Transformations | Datasets ($X \in \mathbb{R}^{N \times D}$), linear layers ($Y = XW + b$), coordinate transformations, system solving. |
-| 3 | **[PCA](file:///Users/wakasa/Projects/AI-LAB/01-math/pca/README.md)** | Dimensionality Reduction & Eigendecomposition | Compressing high-dimensional features, noise reduction, data visualization, covariance & eigenvalues/eigenvectors. |
-| 4 | **[Calculus](file:///Users/wakasa/Projects/AI-LAB/01-math/calculus/README.md)** | Continuous change & Rates of change | Loss function optimization, Gradient Descent ($\theta \leftarrow \theta - \eta \nabla L$), Chain Rule as the foundation of Backpropagation. |
-| 5 | **[Probability](file:///Users/wakasa/Projects/AI-LAB/01-math/probability/README.md)** | Reasoning under uncertainty (Deductive) | Classification outputs ($P(y \mid x)$), Bayesian inference, loss derivations (Cross-Entropy, Negative Log-Likelihood), generative models. |
-| 6 | **[Statistics](file:///Users/wakasa/Projects/AI-LAB/01-math/statistics/README.md)** | Learning from data & validation (Inductive) | Exploratory Data Analysis (EDA), feature correlation, Z-score normalization, A/B testing, hypothesis tests, confidence intervals. |
+| 1 | **[Vectors](vectors/README.md)** | 1D Tensors, operations & metrics | Feature representation, word/image embeddings, similarity search (dot product, cosine similarity, Euclidean distance). |
+| 2 | **[Matrices](matrix/README.md)** | 2D Tensors & Linear Transformations | Datasets ($X \in \mathbb{R}^{N \times D}$), linear layers ($Y = XW + b$), coordinate transformations, system solving. |
+| 3 | **[PCA](pca/README.md)** | Dimensionality Reduction & Eigendecomposition | Compressing high-dimensional features, noise reduction, data visualization, covariance & eigenvalues/eigenvectors. |
+| 4 | **[Calculus](calculus/README.md)** | Continuous change & Rates of change | Loss function optimization, Gradient Descent ($\theta \leftarrow \theta - \eta \nabla L$), Chain Rule as the foundation of Backpropagation. |
+| 5 | **[Probability](probability/README.md)** | Reasoning under uncertainty (Deductive) | Classification outputs ($P(y \mid x)$), Bayesian inference, loss derivations (Cross-Entropy, Negative Log-Likelihood), generative models. |
+| 6 | **[Statistics](statistics/README.md)** | Learning from data & validation (Inductive) | Exploratory Data Analysis (EDA), feature correlation, Z-score normalization, A/B testing, hypothesis tests, confidence intervals. |
 
 ---
 
