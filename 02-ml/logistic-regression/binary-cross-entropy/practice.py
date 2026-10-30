@@ -4,7 +4,6 @@
 # Derived from Maximum Likelihood: minimizing BCE = maximizing the Bernoulli log-likelihood.
 
 import numpy as np
-from sklearn.metrics import log_loss
 
 
 def binary_cross_entropy(y_true, y_prob, eps=1e-15):
@@ -41,10 +40,12 @@ if __name__ == "__main__":
     print(f"Bad predictions BCE:  {bce_bad:.4f}")
     assert bce_good < bce_uniform < bce_bad, "Ordering of losses is incorrect"
 
-    print("\n--- 4. Verification Against scikit-learn log_loss ---")
-    sk_good = log_loss(y, good)
-    print(f"Ours: {bce_good:.10f} | sklearn: {sk_good:.10f}")
-    assert np.isclose(bce_good, sk_good), "Our BCE disagrees with sklearn.metrics.log_loss"
+    print("\n--- 4. Verification Against a Direct Reference ---")
+    reference_good = -np.mean(
+        y * np.log(good) + (1 - y) * np.log(1 - good)
+    )
+    print(f"Ours: {bce_good:.10f} | reference: {reference_good:.10f}")
+    assert np.isclose(bce_good, reference_good), "Our BCE disagrees with the reference"
 
     print("\n--- 5. Numerical Stability at Probability 0 or 1 ---")
     extreme = np.array([1.0, 0.0])

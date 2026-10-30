@@ -8,11 +8,16 @@
 # Compare with 02-ml/logistic-regression/from-scratch for the same algorithm written by hand.
 
 import numpy as np
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, log_loss
-from sklearn.model_selection import train_test_split
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression  # pyright: ignore[reportMissingModuleSource]
+from sklearn.metrics import (  # pyright: ignore[reportMissingModuleSource]
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+    log_loss,
+)
+from sklearn.model_selection import train_test_split  # pyright: ignore[reportMissingModuleSource]
+from sklearn.pipeline import make_pipeline  # pyright: ignore[reportMissingModuleSource]
+from sklearn.preprocessing import StandardScaler  # pyright: ignore[reportMissingModuleSource]
 
 
 def sigmoid(z):
