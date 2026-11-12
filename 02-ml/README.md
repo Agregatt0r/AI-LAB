@@ -16,6 +16,7 @@ Each topic builds directly on the mathematical principles explored in `01-math` 
 | 4 | **[K-Nearest Neighbors (KNN)](knn/README.md)** | Instance-based learning for classification & regression | The foundational distance-based model: lazy learning, Euclidean/Manhattan metrics, choosing $k$, feature scaling, StandardScaler, and from-scratch estimators. |
 | 5 | **[Decision Trees](decision-trees/README.md)** | Non-linear tree-based learning | Tree architecture, nodes/branches/leaves, Gini impurity, Entropy & Information Gain, split finding, hyperparameters, overfitting & pruning, and from-scratch decision tree classifier. |
 | 6 | **[Random Forest](random-forest/README.md)** | Ensemble learning & variance reduction | Wisdom of crowds, bagging, bootstrap sampling, random feature selection ($m \approx \sqrt{d}$), prediction aggregation, feature importance (MDI), and scikit-learn. |
+| 7 | **[DBSCAN](dbscan/README.md)** | Density-based clustering & anomaly detection | Spatial density, $\epsilon$-neighborhood, Core/Border/Noise points, $k$-distance elbow curve, outlier detection (label $-1$), DBSCAN vs K-Means, feature scaling, and pure NumPy implementation from scratch. |
 
 ---
 
