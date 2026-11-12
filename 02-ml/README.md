@@ -17,6 +17,7 @@ Each topic builds directly on the mathematical principles explored in `01-math` 
 | 5 | **[Decision Trees](decision-trees/README.md)** | Non-linear tree-based learning | Tree architecture, nodes/branches/leaves, Gini impurity, Entropy & Information Gain, split finding, hyperparameters, overfitting & pruning, and from-scratch decision tree classifier. |
 | 6 | **[Random Forest](random-forest/README.md)** | Ensemble learning & variance reduction | Wisdom of crowds, bagging, bootstrap sampling, random feature selection ($m \approx \sqrt{d}$), prediction aggregation, feature importance (MDI), and scikit-learn. |
 | 7 | **[DBSCAN](dbscan/README.md)** | Density-based clustering & anomaly detection | Spatial density, $\epsilon$-neighborhood, Core/Border/Noise points, $k$-distance elbow curve, outlier detection (label $-1$), DBSCAN vs K-Means, feature scaling, and pure NumPy implementation from scratch. |
+| 8 | **[Gradient Boosting](gradient-boosting/README.md)** | Sequential boosting & bias reduction | Weak-to-strong learning, boosting idea, pseudo-residuals as negative gradient, learning rate shrinkage ($\nu$), overfitting & regularization (subsample, early stopping), RF vs GBM comparison, and scikit-learn GBM API. |
 
 ---
 
